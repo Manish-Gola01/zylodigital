@@ -1,0 +1,17 @@
+{
+  "name": "zylodigital",
+  "version": "1.0.0",
+  "description": "Zylo Digital - Creative Digital Agency Website",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [
+    "digital-agency",
+    "website"
+  ],
+  "author": "Zylo Digital",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.14"
+  }
+}

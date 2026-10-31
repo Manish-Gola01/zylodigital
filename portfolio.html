@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio & Client Categories | Zylo Digital</title>
+  <meta name="description" content="Explore Zylo Digital's portfolio across fashion designers, bridal wear, contemporary styling, and global service brands.">
+  <link rel="stylesheet" href="style.css?v=14">
+  <link rel="icon" type="image/jpg" href="assets/logo.jpg">
+  <style>
+    .portfolio-hero {
+      padding: 9rem 0 4rem;
+      text-align: center;
+      background: radial-gradient(circle at top, rgba(132, 204, 22, 0.12) 0%, transparent 70%);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .portfolio-hero h1 {
+      font-size: 3.2rem;
+      margin-bottom: 1rem;
+      line-height: 1.15;
+    }
+    .portfolio-hero p {
+      max-width: 680px;
+      margin: 0 auto;
+      color: var(--text-muted);
+      font-size: 1.1rem;
+    }
+    .portfolio-filter-bar {
+      display: flex;
+      justify-content: center;
+      gap: 0.8rem;
+      margin: 3rem 0;
+      flex-wrap: wrap;
+    }
+    .p-filter-btn {
+      background: var(--bg-card);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: var(--text-muted);
+      padding: 0.6rem 1.4rem;
+      border-radius: 9999px;
+      font-family: var(--font-body);
+      font-size: 0.88rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .p-filter-btn.active, .p-filter-btn:hover {
+      background: var(--primary);
+      color: #000;
+      border-color: var(--primary);
+    }
+    .case-study-feature-box {
+      background: var(--bg-card);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 24px;
+      padding: 3rem;
+      margin-bottom: 3rem;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 3rem;
+      align-items: center;
+      transition: var(--transition);
+    }
+    .case-study-feature-box:hover {
+      border-color: var(--border-glow);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 30px var(--primary-glow);
+    }
+    @media (max-width: 900px) {
+      .case-study-feature-box {
+        grid-template-columns: 1fr;
+        padding: 2rem;
+        gap: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container nav-container">
+      <nav>
+        <a href="index.html" class="logo" id="nav-logo">
+          <img src="assets/logo.jpg" alt="Zylo Logo">
+          <span>ZYLO DIGITAL</span>
+        </a>
+        
+        <button class="menu-toggle" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html" class="active">Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="process.html">Process</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="insights.html">Insights</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="btn btn-primary" style="padding: 0.5rem 1.2rem; font-size: 0.85rem; color:#000;">Start a Project</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="portfolio-hero">
+    <div class="container">
+      <span class="badge">Portfolio & Client Categories</span>
+      <h1>Selected Brand Work</h1>
+      <p>
+        Explore how Zylo Digital develops visual identities, high-converting digital storefronts, AI/CGI content, and targeted growth campaigns for fashion, couture, and global service brands.
+      </p>
+    </div>
+  </div>
+
+  <div class="container" style="padding: 3rem 1.5rem 6rem;">
+
+    <!-- Filter Bar -->
+    <div class="portfolio-filter-bar">
+      <button class="p-filter-btn active" data-filter="all">All Brands</button>
+      <button class="p-filter-btn" data-filter="bridal">Bridal & Luxury Fashion</button>
+      <button class="p-filter-btn" data-filter="contemporary">Contemporary & Occasion</button>
+      <button class="p-filter-btn" data-filter="global">Global Services</button>
+      <button class="p-filter-btn" data-filter="fintech">AI & FinTech</button>
+    </div>
+
+    <!-- 01 — Anushka Chauhan -->
+    <div class="case-study-feature-box" data-cat="bridal">
+      <div>
+        <span class="client-index-badge" style="position:static; margin-bottom:1rem; display:inline-block;">01 &bull; LUXURY BRIDAL</span>
+        <h2 style="font-size: 2.4rem; color:#fff; margin-bottom: 0.5rem;">Anushka Chauhan</h2>
+        <div style="color: var(--primary); font-weight: 600; font-size: 1.05rem; margin-bottom: 1.2rem;">Fashion Designer | Bridal & Occasion Wear</div>
+        
+        <p style="color: var(--text-muted); line-height: 1.8; font-size: 1rem; margin-bottom: 1.5rem;">
+          Anushka Chauhan is a fashion designer specialising in bridal lehengas and statement occasion wear. Zylo Digital works on her digital presence and creative brand presentation, showcasing her collections through premium visual content and digital experiences.
+        </p>
+
+        <div style="margin-bottom: 1.5rem;">
+          <strong style="color: #fff; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; display:block; margin-bottom: 0.6rem;">Specialties & Collections:</strong>
+          <div class="client-tags-cloud">
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Bridal Lehengas</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Heavy Occasion Wear</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Designer Outfits</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Fashion Collections</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Bridal Campaigns</span>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 1.5rem;">
+          <a href="https://www.anushkachauhan.com" target="_blank" rel="noopener noreferrer" style="color: #fda4af; text-decoration: underline; font-weight: 600; font-size: 0.95rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+            <span>🌐</span> www.anushkachauhan.com ↗
+          </a>
+        </div>
+
+        <a href="index.html#contact" class="btn btn-primary" onclick="localStorage.setItem('selected_service_rate', 'Bridal Luxury Campaign (Anushka Chauhan style)')">Inquire Similar Project →</a>
+      </div>
+
+      <div style="background: radial-gradient(circle, rgba(244, 63, 94, 0.2) 0%, rgba(12, 13, 16, 0.8) 100%), linear-gradient(135deg, #2a111a 0%, #0c0d10 100%); border: 1px solid rgba(244, 63, 94, 0.3); border-radius: 20px; padding: 2.5rem; text-align: center;">
+        <div style="font-size: 3.5rem; margin-bottom: 1rem;">👑</div>
+        <h3 style="color:#fff; font-size:1.4rem; margin-bottom: 0.8rem;">Zylo Digital Scope</h3>
+        <ul style="list-style:none; padding:0; text-align:left; color:#cbd5e1; font-size: 0.92rem; line-height: 1.8;">
+          <li>✓ Premium Visual Brand Presentation</li>
+          <li>✓ Creative Digital Showroom Architecture</li>
+          <li>✓ High-Resolution Campaign Color Direction</li>
+          <li>✓ Social Media Content & Client Engagement Funnel</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 02 — House of Simons -->
+    <div class="case-study-feature-box" data-cat="contemporary">
+      <div>
+        <span class="client-index-badge" style="position:static; margin-bottom:1rem; display:inline-block; background:rgba(6,182,212,0.2); color:#06b6d4; border-color:#06b6d4;">02 &bull; CONTEMPORARY FASHION</span>
+        <h2 style="font-size: 2.4rem; color:#fff; margin-bottom: 0.5rem;">House of Simons</h2>
+        <div style="color: #06b6d4; font-weight: 600; font-size: 1.05rem; margin-bottom: 1.2rem;">Fashion Designer | Contemporary & Occasion Fashion</div>
+        
+        <p style="color: var(--text-muted); line-height: 1.8; font-size: 1rem; margin-bottom: 1.5rem;">
+          House of Simons creates contemporary fashion designed for modern, everyday and occasion-focused styling. Zylo Digital supports the brand with creative content, visual storytelling and digital marketing.
+        </p>
+
+        <div style="margin-bottom: 1.5rem;">
+          <strong style="color: #fff; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; display:block; margin-bottom: 0.6rem;">Specialties & Collections:</strong>
+          <div class="client-tags-cloud">
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Outing Wear</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Cool / Contemporary Dresses</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Fashion Collections</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Lifestyle Content</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Social Media Creatives</span>
+          </div>
+        </div>
+
+        <a href="index.html#contact" class="btn btn-outline" onclick="localStorage.setItem('selected_service_rate', 'Contemporary Fashion Campaign (House of Simons style)')">Inquire Similar Project →</a>
+      </div>
+
+      <div style="background: radial-gradient(circle, rgba(6, 182, 212, 0.2) 0%, rgba(12, 13, 16, 0.8) 100%), linear-gradient(135deg, #0e1e24 0%, #0c0d10 100%); border: 1px solid rgba(6, 182, 212, 0.3); border-radius: 20px; padding: 2.5rem; text-align: center;">
+        <div style="font-size: 3.5rem; margin-bottom: 1rem;">✨</div>
+        <h3 style="color:#fff; font-size:1.4rem; margin-bottom: 0.8rem;">Zylo Digital Scope</h3>
+        <ul style="list-style:none; padding:0; text-align:left; color:#cbd5e1; font-size: 0.92rem; line-height: 1.8;">
+          <li>✓ Creative Social Storytelling & Reels</li>
+          <li>✓ Modern Lifestyle Brand Framing</li>
+          <li>✓ Targeted Social Media Creatives</li>
+          <li>✓ Multi-Channel Paid Ad Campaigns</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 03 — Heena Arora -->
+    <div class="case-study-feature-box" data-cat="contemporary">
+      <div>
+        <span class="client-index-badge" style="position:static; margin-bottom:1rem; display:inline-block; background:rgba(217,70,239,0.2); color:#d946ef; border-color:#d946ef;">03 &bull; OCCASION & PARTY WEAR</span>
+        <h2 style="font-size: 2.4rem; color:#fff; margin-bottom: 0.5rem;">Heena Arora</h2>
+        <div style="color: #d946ef; font-weight: 600; font-size: 1.05rem; margin-bottom: 1.2rem;">Fashion Designer | Party Wear & Contemporary Fashion</div>
+        
+        <p style="color: var(--text-muted); line-height: 1.8; font-size: 1rem; margin-bottom: 1.5rem;">
+          Heena Arora creates contemporary occasion wear, including partywear, lightweight lehengas, designer suits and co-ord sets. Zylo Digital helps present the collections through engaging digital content and brand-focused creative.
+        </p>
+
+        <div style="margin-bottom: 1.5rem;">
+          <strong style="color: #fff; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; display:block; margin-bottom: 0.6rem;">Specialties & Collections:</strong>
+          <div class="client-tags-cloud">
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Party Wear</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Lightweight Lehengas</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Designer Suits</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Co-ord Sets</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Occasion Wear</span>
+          </div>
+        </div>
+
+        <a href="index.html#contact" class="btn btn-outline" onclick="localStorage.setItem('selected_service_rate', 'Designer Party Wear Creative (Heena Arora style)')">Inquire Similar Project →</a>
+      </div>
+
+      <div style="background: radial-gradient(circle, rgba(217, 70, 239, 0.2) 0%, rgba(12, 13, 16, 0.8) 100%), linear-gradient(135deg, #251129 0%, #0c0d10 100%); border: 1px solid rgba(217, 70, 239, 0.3); border-radius: 20px; padding: 2.5rem; text-align: center;">
+        <div style="font-size: 3.5rem; margin-bottom: 1rem;">💎</div>
+        <h3 style="color:#fff; font-size:1.4rem; margin-bottom: 0.8rem;">Zylo Digital Scope</h3>
+        <ul style="list-style:none; padding:0; text-align:left; color:#cbd5e1; font-size: 0.92rem; line-height: 1.8;">
+          <li>✓ Engaging Digital Lookbook Production</li>
+          <li>✓ Co-ord Sets & Party Wear Positioning</li>
+          <li>✓ Brand-Focused Dynamic Reels</li>
+          <li>✓ Digital Marketing & Conversion Architecture</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 04 — Astro Project -->
+    <div class="case-study-feature-box" data-cat="global">
+      <div>
+        <span class="client-index-badge" style="position:static; margin-bottom:1rem; display:inline-block; background:rgba(234,179,8,0.2); color:#eab308; border-color:#eab308;">04 &bull; USA-BASED SPIRITUAL SERVICES</span>
+        <h2 style="font-size: 2.4rem; color:#fff; margin-bottom: 0.5rem;">Astro Project</h2>
+        <div style="color: #eab308; font-weight: 600; font-size: 1.05rem; margin-bottom: 1.2rem;">USA-Based Astrology & Spiritual Services</div>
+        
+        <p style="color: var(--text-muted); line-height: 1.8; font-size: 1rem; margin-bottom: 1.5rem;">
+          Astro Project is a USA-based astrology and spiritual services brand offering astrology guidance, pandit services and pooja-related services. Zylo Digital supports its digital presence and communication through modern web and marketing solutions.
+        </p>
+
+        <div style="margin-bottom: 1.5rem;">
+          <strong style="color: #fff; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; display:block; margin-bottom: 0.6rem;">Specialties & Offerings:</strong>
+          <div class="client-tags-cloud">
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Astrology Guidance</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Pandit Services</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Pooja Services</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Spiritual Consultations</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Astrology Content</span>
+          </div>
+        </div>
+
+        <a href="index.html#contact" class="btn btn-primary" onclick="localStorage.setItem('selected_service_rate', 'Global Spiritual Web & Marketing (Astro Project style)')">Inquire Similar Project →</a>
+      </div>
+
+      <div style="background: radial-gradient(circle, rgba(234, 179, 8, 0.2) 0%, rgba(12, 13, 16, 0.8) 100%), linear-gradient(135deg, #241f0b 0%, #0c0d10 100%); border: 1px solid rgba(234, 179, 8, 0.3); border-radius: 20px; padding: 2.5rem; text-align: center;">
+        <div style="font-size: 3.5rem; margin-bottom: 1rem;">🔮</div>
+        <h3 style="color:#fff; font-size:1.4rem; margin-bottom: 0.8rem;">Zylo Digital Scope</h3>
+        <ul style="list-style:none; padding:0; text-align:left; color:#cbd5e1; font-size: 0.92rem; line-height: 1.8;">
+          <li>✓ Modern Web Booking Platform</li>
+          <li>✓ USA-Targeted Performance Advertising</li>
+          <li>✓ Spiritual Content & Community Communication</li>
+          <li>✓ Automated Consultation Workflows</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 05 — Trendmark Solutions -->
+    <div class="case-study-feature-box" data-cat="fintech">
+      <div>
+        <span class="client-index-badge" style="position:static; margin-bottom:1rem; display:inline-block; background:rgba(16,185,129,0.2); color:#10b981; border-color:#10b981;">05 &bull; USA &bull; AI FINTECH</span>
+        <h2 style="font-size: 2.4rem; color:#fff; margin-bottom: 0.5rem;">Trendmark Solutions</h2>
+        <div style="color: #10b981; font-weight: 600; font-size: 1.05rem; margin-bottom: 1.2rem;">USA | AI Stock Market Platform | FinTech</div>
+        
+        <p style="color: var(--text-muted); line-height: 1.8; font-size: 1rem; margin-bottom: 1.5rem;">
+          Trendmark Solutions is a USA-focused AI-powered stock market platform designed to help users analyse market movements and access trading insights through an AI-driven application.
+        </p>
+
+        <div style="margin-bottom: 1.5rem;">
+          <strong style="color: #fff; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; display:block; margin-bottom: 0.6rem;">What the platform offers:</strong>
+          <div class="client-tags-cloud">
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ AI-Powered Market Analysis</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Stock Market Trend Insights</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Buy & Sell Signals</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Trading Calls</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ Market-Focused Data and Insights</span>
+            <span class="client-tag-chip" style="font-size:0.85rem; padding: 0.4rem 0.9rem;">✦ AI-Driven App Experience</span>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 1.5rem; display:flex; align-items:center; gap: 0.5rem;">
+          <span style="color: var(--text-muted); font-size: 0.9rem;">Live Platform:</span>
+          <a href="https://www.trendmarksolutions.com" target="_blank" rel="noopener noreferrer" style="color: #10b981; text-decoration: underline; font-weight: 600;">www.trendmarksolutions.com ↗</a>
+        </div>
+
+        <a href="index.html#contact" class="btn btn-primary" onclick="localStorage.setItem('selected_service_rate', 'AI Stock Market FinTech App (Trendmark Solutions style)')">Inquire Similar Project →</a>
+      </div>
+
+      <div style="background: radial-gradient(circle, rgba(16, 185, 129, 0.2) 0%, rgba(12, 13, 16, 0.8) 100%), linear-gradient(135deg, #071f1a 0%, #0c0d10 100%); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 20px; padding: 2.5rem; text-align: center;">
+        <div style="font-size: 3.5rem; margin-bottom: 1rem;">📈</div>
+        <h3 style="color:#fff; font-size:1.4rem; margin-bottom: 0.8rem;">Zylo Digital Scope</h3>
+        <ul style="list-style:none; padding:0; text-align:left; color:#cbd5e1; font-size: 0.92rem; line-height: 1.8;">
+          <li>✓ AI-Powered Financial Analytics UX/UI</li>
+          <li>✓ Real-Time Market Trend Visualization</li>
+          <li>✓ Buy/Sell Signal Notification Architecture</li>
+          <li>✓ USA Market Acquisition & FinTech App Scaling</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-about">
+          <div class="logo">
+            <img src="assets/logo.jpg" alt="Zylo Logo">
+            <span>ZYLO DIGITAL</span>
+          </div>
+          <p>We Build Brands That Sell.</p>
+          <div class="footer-social-icons">
+            <a href="https://chat.whatsapp.com/LmsbxYjfmTfBS5mzSGJ30m" target="_blank" aria-label="WhatsApp Community" style="color: #25d366;">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.73-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.725 1.45 5.277.002 9.57-4.288 9.573-9.563.001-2.553-1.002-4.955-2.825-6.78-1.824-1.825-4.23-2.827-6.787-2.828-5.277 0-9.572 4.287-9.575 9.564-.001 1.697.469 3.352 1.36 4.825L1.93 19.897l4.717-1.243zm11.62-5.01c-.229-.115-1.354-.669-1.564-.746-.21-.077-.362-.115-.515.115-.152.23-.591.747-.724.898-.133.15-.266.17-.495.054-.229-.115-.967-.356-1.842-1.137-.682-.609-1.142-1.36-1.275-1.59-.133-.229-.014-.353.101-.468.104-.103.229-.268.343-.402.115-.134.153-.229.229-.383.076-.153.038-.287-.019-.402-.057-.115-.515-1.24-.706-1.701-.186-.447-.372-.387-.515-.395-.133-.007-.286-.008-.439-.008-.152 0-.401.057-.611.287-.21.23-.802.785-.802 1.916 0 1.13.821 2.222.935 2.376.114.153 1.618 2.47 3.92 3.467.548.238.976.38 1.312.488.552.176 1.054.151 1.452.091.442-.066 1.354-.552 1.545-1.085.191-.533.191-.99.134-1.086-.057-.096-.21-.153-.439-.268z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/zylodigital.in?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==" target="_blank" aria-label="Instagram">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/share/19brAuToth/?mibextid=wwXIfr" target="_blank" aria-label="Facebook">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Work</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="process.html">Process</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="insights.html">Insights</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="services.html#web-digital">Websites &amp; UI/UX</a></li>
+            <li><a href="services.html#branding">Branding &amp; Motion</a></li>
+            <li><a href="services.html#ai-creative">AI Creative</a></li>
+            <li><a href="services.html#cgi-3d">CGI &amp; 3D</a></li>
+            <li><a href="services.html#photography">Photography</a></li>
+            <li><a href="services.html#video">Video Production</a></li>
+            <li><a href="services.html#marketing">Google &amp; Meta Ads</a></li>
+            <li><a href="services.html#ai-automation">AI Automation</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Connect</h3>
+          <p>
+            <a href="https://chat.whatsapp.com/LmsbxYjfmTfBS5mzSGJ30m" target="_blank" style="color:#25d366; font-weight:600;">✦ WhatsApp Community</a><br>
+            <a href="https://www.instagram.com/zylodigital.in?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==" target="_blank">✦ Instagram @zylodigital.in</a><br>
+            <a href="https://www.facebook.com/share/19brAuToth/?mibextid=wwXIfr" target="_blank">✦ Facebook Official</a><br>
+            <a href="mailto:supportzylo.digital@gmail.com">✦ supportzylo.digital@gmail.com</a>
+          </p>
+          <p style="margin-top: 1rem; color: var(--text-muted-dark); font-size: 0.85rem;">
+            Location: India | Worldwide
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="cookie-policy.html">Cookie Policy</a></li>
+            <li><a href="terms-and-conditions.html">Terms &amp; Conditions</a></li>
+            <li><a href="refund-policy.html">Refund Policy</a></li>
+            <li><a href="disclaimer.html">Disclaimer</a></li>
+            <li><a href="sitemap.html">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Zylo Digital. All rights reserved. | Slogan: We Build Brands That Sell. | India &bull; Worldwide</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Filter handling
+    const filterBtns = document.querySelectorAll('.p-filter-btn');
+    const boxes = document.querySelectorAll('.case-study-feature-box');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.getAttribute('data-filter');
+
+        boxes.forEach(box => {
+          const cat = box.getAttribute('data-cat');
+          if (filter === 'all' || cat === filter) {
+            box.style.display = 'grid';
+          } else {
+            box.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Mobile nav toggle
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    if (menuToggle && navLinks) {
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        navLinks.classList.toggle('active');
+      });
+    }
+  </script>
+  <script src="app.js?v=7"></script>
+</body>
+</html>
+

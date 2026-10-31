@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Careers at Zylo Digital | Create. Experiment. Build What’s Next.</title>
+  <meta name="description" content="Join the Zylo Digital squad. Opportunities across UI/UX, AI Art, CGI, Video Production, Web Development, and Performance Marketing.">
+  <link rel="stylesheet" href="style.css?v=14">
+  <link rel="icon" type="image/jpg" href="assets/logo.jpg">
+  <style>
+    .careers-hero {
+      padding: 9rem 0 4rem;
+      text-align: center;
+      background: radial-gradient(circle at top, rgba(132, 204, 22, 0.12) 0%, transparent 70%);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .careers-hero h1 {
+      font-size: 3.2rem;
+      margin-bottom: 1rem;
+      line-height: 1.15;
+    }
+    .careers-hero p {
+      max-width: 680px;
+      margin: 0 auto;
+      color: var(--text-muted);
+      font-size: 1.1rem;
+    }
+    .why-zylo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      margin: 3.5rem 0 5rem;
+    }
+    .why-card {
+      background: var(--bg-card);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 16px;
+      padding: 1.8rem;
+      transition: var(--transition);
+      position: relative;
+    }
+    .why-card:hover {
+      border-color: var(--border-glow);
+      transform: translateY(-4px);
+      box-shadow: 0 10px 30px var(--primary-glow);
+    }
+    .why-card h3 {
+      font-size: 1.15rem;
+      color: #fff;
+      margin: 0.8rem 0 0.5rem;
+    }
+    .why-card p {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+    .role-dept-title {
+      font-size: 1.5rem;
+      color: #fff;
+      margin: 3rem 0 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .role-dept-title::before {
+      content: "";
+      display: inline-block;
+      width: 4px;
+      height: 1.3rem;
+      background: var(--primary);
+      border-radius: 2px;
+    }
+    .roles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .role-card {
+      background: var(--bg-card);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      border-radius: 16px;
+      padding: 1.8rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: var(--transition);
+    }
+    .role-card:hover {
+      border-color: var(--border-glow);
+      transform: translateY(-3px);
+    }
+    .role-card h4 {
+      font-size: 1.2rem;
+      color: #fff;
+      margin-bottom: 0.6rem;
+    }
+    .role-card p {
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      line-height: 1.6;
+      margin-bottom: 1.2rem;
+    }
+    .role-card .role-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      padding-top: 1rem;
+    }
+    .role-badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      background: rgba(132, 204, 22, 0.1);
+      color: var(--primary);
+      border-radius: 9999px;
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .application-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border-glow);
+      border-radius: 24px;
+      padding: 3rem 2.5rem;
+      max-width: 800px;
+      margin: 4rem auto 6rem;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8), 0 0 30px var(--primary-glow);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container nav-container">
+      <nav>
+        <a href="index.html" class="logo" id="nav-logo">
+          <img src="assets/logo.jpg" alt="Zylo Logo">
+          <span>ZYLO DIGITAL</span>
+        </a>
+        
+        <button class="menu-toggle" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="process.html">Process</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="insights.html">Insights</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="btn btn-primary" style="padding: 0.5rem 1.2rem; font-size: 0.85rem; color:#000;">Start a Project</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="careers-hero">
+    <div class="container">
+      <span class="badge">Join Zylo Digital</span>
+      <h1>Create. Experiment. Build What’s Next.</h1>
+      <p>
+        At Zylo Digital, we believe great work happens when creative thinking meets technology. We’re building a team of designers, developers, creators, marketers, editors, photographers, and problem-solvers.
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <!-- Why Zylo Pillars -->
+    <div class="section-header" style="margin-top: 4rem;">
+      <span class="badge">Culture & Growth</span>
+      <h2>Why Zylo?</h2>
+    </div>
+
+    <div class="why-zylo-grid">
+      <div class="why-card">
+        <div style="font-size: 1.8rem;">🚀</div>
+        <h3>Work on Real Projects</h3>
+        <p>Work directly with growing businesses and modern brands across websites, advertising, branding, AI, and digital experiences.</p>
+      </div>
+
+      <div class="why-card">
+        <div style="font-size: 1.8rem;">⚡</div>
+        <h3>Creative + Technology</h3>
+        <p>Explore the intersection of design, AI, CGI, video, photography, web development, and performance marketing.</p>
+      </div>
+
+      <div class="why-card">
+        <div style="font-size: 1.8rem;">📈</div>
+        <h3>Learn & Grow</h3>
+        <p>Take ownership, experiment with forward-thinking ideas, and develop advanced skills on real-world client launches.</p>
+      </div>
+
+      <div class="why-card">
+        <div style="font-size: 1.8rem;">🏆</div>
+        <h3>Build Your Portfolio</h3>
+        <p>Create work that you can genuinely be proud of and use to demonstrate your creativity to the global industry.</p>
+      </div>
+
+      <div class="why-card">
+        <div style="font-size: 1.8rem;">🤝</div>
+        <h3>Collaborative Squad</h3>
+        <p>Work with peers from diverse creative and digital disciplines to turn bold concepts into reality.</p>
+      </div>
+    </div>
+
+    <!-- Explore Opportunities -->
+    <div class="section-header">
+      <span class="badge">Open Roles</span>
+      <h2>Explore Opportunities</h2>
+      <p>We’re always looking for talented people across creative, technology, marketing, and business functions.</p>
+    </div>
+
+    <!-- 1. Design & Creative -->
+    <h3 class="role-dept-title">Design & Creative</h3>
+    <div class="roles-grid">
+      <div class="role-card">
+        <div>
+          <h4>UI/UX Designer</h4>
+          <p>Create intuitive, visually engaging digital experiences and interactive wireframes for modern web applications and brands.</p>
+        </div>
+        <div class="role-footer">
+          <span class="role-badge">Figma / Web</span>
+          <a href="#apply" class="btn btn-outline" style="padding: 0.35rem 0.9rem; font-size: 0.8rem;" onclick="prefillRole('UI/UX Designer')">Apply</a>
+        </div>
+      </div>
+
+      <div class="role-card">
+        <div>
+          <h4>Graphic Designer</h4>
+          <p>Develop compelling brand identities, social media creatives, high-converting advertising assets, and digital design kits.</p>
+        </div>
+        <div class="role-footer">
+          <span class="role-badge">Branding / Visual</span>
+          <a href="#apply" class="btn btn-outline" style="padding: 0.35rem 0.9rem; font-size: 0.8rem;" onclick="prefillRole('Graphic Designer')">Apply</a>
+        </div>
+      </div>
+
+      <div class="role-card">
+        <div>
+          <h4>Motion Graphics Designer</h4>
+          <p>Create engaging motion graphics, 2D/3D logo animations, video advertisements, and kinetic typography.</p>
+        </div>
+        <div class="role-footer">
+          <span class="role-badge">After Effects / Cinema 4D</span>
+          <a href="#apply" class="btn btn-outline" style="padding: 0.35rem 0.9rem; font-size: 0.8rem;" onclick="prefillRole('Motion Graphics Designer')">Apply</a>
+        </div>
+      </div>
+
+      <div class="role-card">
+        <div>
+          <h4>AI Creative Artist</h4>
+          <p>Develop AI-powered visuals, campaign concepts, product imagery, fashion creatives, and experimental digital content.</p>
+        </div>
+        <div class="role-footer">
+          <span class="role-badge">Midjourney / ComfyUI / GenAI</span>
+          <a href="#apply" class="btn btn-outline" style="padding: 0.35rem 0.9rem; font-size: 0.8rem;" onclick="prefillRole('AI Creative Artist')">Apply</a>
+        </div>
+      </div>
+
+      <div class="role-card">
+        <div>
+          <h4>CGI / 3D Artist</h4>
+          <p>Create 3D product visuals, animated CGI commercials, realistic product visualisation, and immersive experiences.</p>
+        </div>
+        <div class="role-footer">
+          <span class="role-badge">Blender / 3D CGI</span>
+          <a href="#apply" class="btn btn-outline" style="padding: 0.35rem 0.9rem; font-size: 0.8rem;" onclick="prefillRole('CGI / 3D Artist')">Apply</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Video & Production -->
+    <h3 class="role-dept-title">Video & Production</h3>
+    <div class="roles-grid">
+      <div class="role-card">
+        <div>
+          <h4>Video Editor</h4>
+          <p>Craft viral reels, brand films, product showcase videos, and captivating social media storytelling.</p>
+        </div>
+        <div class="role-footer">
+          <span class="role-badge">Premiere / DaVinci</span>
+          <a href="#apply" class="btn btn-outline" style="padding: 0.35rem 0.9rem; font-size: 0.8rem;" onclick="prefillRole('Video Editor')">Apply</a>
+        </div>
+      </div>
+
+      <div class="role-card">
+        <div>
+          <h4>Photographer</h4>
+          <p>Lead fashion, product, e-commerce, and high-impact commercial brand photography on-site and in studio.</p>
+        </div>
+        <div class="role-footer">
+          <span class="role-badge">Studio / Lighting</span>
+          <a href="#apply" class="btn btn-outline" style="padding: 0.35rem 0.9rem; font-size: 0.8rem;" onclick="prefillRole('Photographer')">Apply</a>
+        </div>
+      </div>
+
+      <div class="role-card">
+        <div>
+          <h4>Creative Producer</h4>
+          <p>Coordinate photoshoots, set locations, models, video productions, and delivery pipelines end-to-end.</p>
+        </div>
+        <div class="role-footer">
+          <span class="role-badge">Production Management</span>
+          <a href="#apply" class="btn btn-outline" style="padding: 0.35rem 0.9rem; font-size: 0.8rem;" onclick="prefillRole('Creative Producer')">Apply</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Technology -->
+    <h3 class="role-dept-title">Technology & Development</h3>
+    <div class="roles-grid">
+      <div class="role-card">
+        <div>
+          <h4>Web Designer / Developer</h4>
+          <p>Build modern, responsive, high-performing websites and digital experiences tailored for conversion.</p>
+        </div>
+        <div class="role-footer">
+          <span class="role-badge">HTML / CSS / JS</span>
+          <a href="#apply" class="btn btn-outline" style="padding: 0.35rem 0.9rem; font-size: 0.8rem;" onclick="prefillRole('Web Designer / Developer')">Apply</a>
+        </div>
+      </div>
+
+      <div class="role-card">
+        <div>
+          <h4>Frontend Developer</h4>
+          <p>Develop responsive web interfaces, interactive animations, and component frameworks.</p>
+        </div>
+        <div class="role-footer">
+          <span class="role-badge">Modern JS / Web Frameworks</span>
+          <a href="#apply" class="btn btn-outline" style="padding: 0.35rem 0.9rem; font-size: 0.8rem;" onclick="prefillRole('Frontend Developer')">Apply</a>
+        </div>
+      </div>
+
+      <div class="role-card">
+        <div>
+          <h4>WordPress Developer</h4>
+          <p>Create and customize professional business portals, booking platforms, and e-commerce websites.</p>
+        </div>
+        <div class="role-footer">
+          <span class="role-badge">WordPress / WooCommerce</span>
+          <a href="#apply" class="btn btn-outline" style="padding: 0.35rem 0.9rem; font-size: 0.8rem;" onclick="prefillRole('WordPress Developer')">Apply</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. Marketing -->
+    <h3 class="role-dept-title">Marketing & Growth</h3>
+    <div class="roles-grid">
+      <div class="role-card">
+        <div>
+          <h4>Performance Marketing Specialist</h4>
+          <p>Plan, execute, and scale high-ROI campaigns across Google Ads, Meta Ads, and programmatic networks.</p>
+        </div>
+        <div class="role-footer">
+          <span class="role-badge">Google Ads / Meta Ads</span>
+          <a href="#apply" class="btn btn-outline" style="padding: 0.35rem 0.9rem; font-size: 0.8rem;" onclick="prefillRole('Performance Marketing Specialist')">Apply</a>
+        </div>
+      </div>
+
+      <div class="role-card">
+        <div>
+          <h4>SEO Specialist</h4>
+          <p>Drive organic visibility, technical SEO audits, Google Business Profile ranking, and search content strategy.</p>
+        </div>
+        <div class="role-footer">
+          <span class="role-badge">Technical SEO / Local SEO</span>
+          <a href="#apply" class="btn btn-outline" style="padding: 0.35rem 0.9rem; font-size: 0.8rem;" onclick="prefillRole('SEO Specialist')">Apply</a>
+        </div>
+      </div>
+
+      <div class="role-card">
+        <div>
+          <h4>Social Media Manager</h4>
+          <p>Lead social strategy, content calendars, community interactions, and organic audience momentum.</p>
+        </div>
+        <div class="role-footer">
+          <span class="role-badge">Content / Community</span>
+          <a href="#apply" class="btn btn-outline" style="padding: 0.35rem 0.9rem; font-size: 0.8rem;" onclick="prefillRole('Social Media Manager')">Apply</a>
+        </div>
+      </div>
+
+      <div class="role-card">
+        <div>
+          <h4>Content Strategist</h4>
+          <p>Develop compelling content narratives and copy frameworks that connect brands with target audiences.</p>
+        </div>
+        <div class="role-footer">
+          <span class="role-badge">Copywriting / Brand Strategy</span>
+          <a href="#apply" class="btn btn-outline" style="padding: 0.35rem 0.9rem; font-size: 0.8rem;" onclick="prefillRole('Content Strategist')">Apply</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. Business & Growth -->
+    <h3 class="role-dept-title">Business & Client Growth</h3>
+    <div class="roles-grid">
+      <div class="role-card">
+        <div>
+          <h4>Business Development Executive</h4>
+          <p>Identify opportunities, connect with forward-thinking businesses, and scale Zylo’s client portfolio.</p>
+        </div>
+        <div class="role-footer">
+          <span class="role-badge">Client Acquisition</span>
+          <a href="#apply" class="btn btn-outline" style="padding: 0.35rem 0.9rem; font-size: 0.8rem;" onclick="prefillRole('Business Development Executive')">Apply</a>
+        </div>
+      </div>
+
+      <div class="role-card">
+        <div>
+          <h4>Client Relationship Manager</h4>
+          <p>Build strong client partnerships, oversee communications, and ensure projects achieve measurable goals.</p>
+        </div>
+        <div class="role-footer">
+          <span class="role-badge">Account Leadership</span>
+          <a href="#apply" class="btn btn-outline" style="padding: 0.35rem 0.9rem; font-size: 0.8rem;" onclick="prefillRole('Client Relationship Manager')">Apply</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Freelancers Card -->
+    <div style="background: linear-gradient(135deg, rgba(132, 204, 22, 0.08) 0%, rgba(12, 13, 16, 0.9) 100%); border: 1px solid var(--border-glow); border-radius: 20px; padding: 2.5rem; margin: 3rem 0; text-align: center;">
+      <h3 style="font-size: 1.6rem; color: #fff; margin-bottom: 0.8rem;">Freelancers & Independent Creators</h3>
+      <p style="color: var(--text-muted); max-width: 650px; margin: 0 auto 1.5rem; line-height: 1.7;">
+        We’re also open to working with talented freelancers, photographers, models, editors, developers, designers, creators, and production professionals on a project basis.
+      </p>
+      <a href="#apply" class="btn btn-primary" onclick="prefillRole('Freelancer / Independent Creator')">Join as a Freelancer / Creator</a>
+    </div>
+
+    <!-- Application Form Container -->
+    <div class="application-container" id="apply">
+      <div style="text-align: center; margin-bottom: 2.5rem;">
+        <span class="badge">Application Portal</span>
+        <h2 style="font-size: 2.2rem; color: #fff; margin: 0.5rem 0;">Apply to Zylo Digital</h2>
+        <p style="color: var(--text-muted);">Take the first step toward building what’s next.</p>
+      </div>
+
+      <form id="career-application-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="applicant-name">Your Full Name *</label>
+            <input type="text" id="applicant-name" required placeholder="Aarav Sharma">
+          </div>
+          <div class="form-group">
+            <label for="applicant-email">Email Address *</label>
+            <input type="email" id="applicant-email" required placeholder="aarav@domain.com">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="applicant-phone">Phone / WhatsApp Number *</label>
+            <input type="tel" id="applicant-phone" required placeholder="+91 98765 43210">
+          </div>
+          <div class="form-group">
+            <label for="applicant-role">Role You're Interested In *</label>
+            <input type="text" id="applicant-role" required placeholder="e.g. UI/UX Designer, Video Editor, AI Artist">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="applicant-exp">Years of Experience</label>
+            <select id="applicant-exp">
+              <option value="Fresher / Student">Fresher / Student (Self-Taught)</option>
+              <option value="1-2 Years" selected>1 – 2 Years</option>
+              <option value="3-5 Years">3 – 5 Years</option>
+              <option value="5+ Years">5+ Years (Senior / Lead)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="applicant-portfolio">Portfolio / Website / LinkedIn Link *</label>
+            <input type="url" id="applicant-portfolio" required placeholder="https://behance.net/yourprofile or linkedin">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="applicant-resume">Resume / CV Link (Google Drive / Dropbox)</label>
+          <input type="url" id="applicant-resume" placeholder="https://drive.google.com/your-resume-link">
+        </div>
+
+        <div class="form-group">
+          <label for="applicant-intro">A short introduction about yourself *</label>
+          <textarea id="applicant-intro" rows="4" required placeholder="Tell us about your background, tools you love, and why you want to build with Zylo..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; border: none; font-size: 1.05rem; padding: 1rem;">Submit Application</button>
+      </form>
+    </div>
+
+  </div>
+
+  <!-- Success Modal for Careers -->
+  <div class="modal-overlay" id="career-success-modal">
+    <div class="modal-box" style="text-align: center; max-width: 480px;">
+      <div style="font-size: 3rem; margin-bottom: 1rem;">🎉</div>
+      <h3 style="font-size: 1.8rem; color: #fff; margin-bottom: 0.5rem;">Application Received!</h3>
+      <p style="color: var(--text-muted); line-height: 1.6; margin-bottom: 1.5rem;">
+        Thank you for applying to Zylo Digital. Our talent team reviews applications on a rolling basis. If your profile aligns with our current projects, we’ll contact you via WhatsApp / email.
+      </p>
+      <button class="btn btn-primary" id="close-career-modal" style="width: 100%;">Got It</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-about">
+          <div class="logo">
+            <img src="assets/logo.jpg" alt="Zylo Logo">
+            <span>ZYLO DIGITAL</span>
+          </div>
+          <p>A Creative Digital Agency Building Brands That Sell.</p>
+          <div class="footer-social-icons">
+            <a href="https://chat.whatsapp.com/LmsbxYjfmTfBS5mzSGJ30m" target="_blank" aria-label="WhatsApp Community" style="color: #25d366;">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.73-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.725 1.45 5.277.002 9.57-4.288 9.573-9.563.001-2.553-1.002-4.955-2.825-6.78-1.824-1.825-4.23-2.827-6.787-2.828-5.277 0-9.572 4.287-9.575 9.564-.001 1.697.469 3.352 1.36 4.825L1.93 19.897l4.717-1.243zm11.62-5.01c-.229-.115-1.354-.669-1.564-.746-.21-.077-.362-.115-.515.115-.152.23-.591.747-.724.898-.133.15-.266.17-.495.054-.229-.115-.967-.356-1.842-1.137-.682-.609-1.142-1.36-1.275-1.59-.133-.229-.014-.353.101-.468.104-.103.229-.268.343-.402.115-.134.153-.229.229-.383.076-.153.038-.287-.019-.402-.057-.115-.515-1.24-.706-1.701-.186-.447-.372-.387-.515-.395-.133-.007-.286-.008-.439-.008-.152 0-.401.057-.611.287-.21.23-.802.785-.802 1.916 0 1.13.821 2.222.935 2.376.114.153 1.618 2.47 3.92 3.467.548.238.976.38 1.312.488.552.176 1.054.151 1.452.091.442-.066 1.354-.552 1.545-1.085.191-.533.191-.99.134-1.086-.057-.096-.21-.153-.439-.268z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/zylodigital.in?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==" target="_blank" aria-label="Instagram">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/share/19brAuToth/?mibextid=wwXIfr" target="_blank" aria-label="Facebook">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Work</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="process.html">Process</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="insights.html">Insights</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="services.html#web-digital">Websites &amp; UI/UX</a></li>
+            <li><a href="services.html#branding">Branding &amp; Motion</a></li>
+            <li><a href="services.html#ai-creative">AI Creative</a></li>
+            <li><a href="services.html#cgi-3d">CGI &amp; 3D</a></li>
+            <li><a href="services.html#photography">Photography</a></li>
+            <li><a href="services.html#video">Video Production</a></li>
+            <li><a href="services.html#marketing">Google &amp; Meta Ads</a></li>
+            <li><a href="services.html#ai-automation">AI Automation</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Connect</h3>
+          <p>
+            <a href="https://chat.whatsapp.com/LmsbxYjfmTfBS5mzSGJ30m" target="_blank" style="color:#25d366; font-weight:600;">✦ WhatsApp Community</a><br>
+            <a href="https://www.instagram.com/zylodigital.in?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==" target="_blank">✦ Instagram @zylodigital.in</a><br>
+            <a href="https://www.facebook.com/share/19brAuToth/?mibextid=wwXIfr" target="_blank">✦ Facebook Official</a><br>
+            <a href="mailto:supportzylo.digital@gmail.com">✦ supportzylo.digital@gmail.com</a>
+          </p>
+          <p style="margin-top: 1rem; color: var(--text-muted-dark); font-size: 0.85rem;">
+            Location: India | Worldwide
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="cookie-policy.html">Cookie Policy</a></li>
+            <li><a href="terms-and-conditions.html">Terms &amp; Conditions</a></li>
+            <li><a href="refund-policy.html">Refund Policy</a></li>
+            <li><a href="disclaimer.html">Disclaimer</a></li>
+            <li><a href="sitemap.html">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Zylo Digital. All rights reserved. | Slogan: We Build Brands That Sell. | India &bull; Worldwide</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function prefillRole(roleName) {
+      const input = document.getElementById('applicant-role');
+      if (input) {
+        input.value = roleName;
+        input.focus();
+      }
+    }
+
+    document.getElementById('career-application-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const applicant = {
+        name: document.getElementById('applicant-name').value,
+        email: document.getElementById('applicant-email').value,
+        phone: document.getElementById('applicant-phone').value,
+        role: document.getElementById('applicant-role').value,
+        exp: document.getElementById('applicant-exp').value,
+        portfolio: document.getElementById('applicant-portfolio').value,
+        resume: document.getElementById('applicant-resume').value,
+        intro: document.getElementById('applicant-intro').value,
+        timestamp: new Date().toISOString()
+      };
+
+      let apps = [];
+      try {
+        apps = JSON.parse(localStorage.getItem('zylo_job_applications')) || [];
+      } catch (err) {
+        apps = [];
+      }
+      apps.push(applicant);
+      localStorage.setItem('zylo_job_applications', JSON.stringify(apps));
+
+      document.getElementById('career-success-modal').classList.add('active');
+      document.getElementById('career-application-form').reset();
+    });
+
+    document.getElementById('close-career-modal').addEventListener('click', () => {
+      document.getElementById('career-success-modal').classList.remove('active');
+    });
+
+    // Mobile nav toggle
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    if (menuToggle && navLinks) {
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        navLinks.classList.toggle('active');
+      });
+    }
+  </script>
+  <script src="app.js?v=7"></script>
+</body>
+</html>
+

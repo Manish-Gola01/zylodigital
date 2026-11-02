@@ -64,7 +64,10 @@ class RangeHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
             return super().send_head()
 
 if __name__ == '__main__':
-    socketserver.TCPServer.allow_reuse_address = True
-    with socketserver.TCPServer(("", PORT), RangeHTTPRequestHandler) as httpd:
-        print(f"Serving HTTP on port {PORT} with Range support...")
+    server_address = ("", PORT)
+    httpd = http.server.ThreadingHTTPServer(server_address, RangeHTTPRequestHandler)
+    print(f"Serving HTTP on port {PORT} with Range support (multithreaded)...")
+    try:
         httpd.serve_forever()
+    except KeyboardInterrupt:
+        pass
